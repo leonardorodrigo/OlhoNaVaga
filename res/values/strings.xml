@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Olho na vaga</string>
-    <string name="mensagem_sem_conexao_internet">Você está sem acesso à internet. Por favor, verifique sua conexão.
-    </string>
+    <string name="mensagem_sem_conexao_internet">Você está sem acesso à internet. Por favor, verifique sua conexão.</string>
     <string name="mensagem_erro_ao_procurar_vagas">Ocorreram erros ao procurar vagas.</string>
     <string name="mensagem_aguarde">Aguarde…</string>
 </resources>
