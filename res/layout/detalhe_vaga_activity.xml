@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:padding="10dp">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saiba mais sobre a vaga"
+            android:id="@+id/textView2" android:textSize="25sp"
+            android:textColor="@android:color/holo_green_dark"/>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView" android:layout_marginTop="20dp">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:id="@+id/textView_titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Senior Java Developer"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/holo_blue_dark"
+            />
+
+            <TextView
+                    android:id="@+id/textView_empresa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Github"/>
+
+            <TextView
+                    android:id="@+id/textView_localizacao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="San Francisco"/>
+
+            <ImageView
+                    android:id="@+id/imageView_logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" android:layout_marginTop="10dp"/>
+
+            <WebView
+                    android:id="@+id/webView_descricao"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_marginTop="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
